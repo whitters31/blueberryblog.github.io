@@ -44,7 +44,7 @@ a:hover {
     margin-right: 16px;
 }
 
-.nav-bar input[type=search] { /*edited this to type search along with the other*/
+.nav-bar input[type=search] {
     float: right;
     padding: 6px;
     margin-top: 8px;
@@ -93,16 +93,11 @@ a:hover {
 }
    
 .logo {
-    position: absolute;
-    top: 0px;
-    left: 570px;
-    margin-top: -50px;
-    padding-top: 0px; 
-}
-
-/*added*/
-.logo img {
-    width: 320px;
+   position: absolute;
+   top: 0px;
+   left: 600px;
+   margin-top: 0px;
+   padding-top: 0px;
 }
 
 /*heading*/
