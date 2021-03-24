@@ -2,7 +2,7 @@ body{
    margin: 0px;
    width: 100%;
    height: 100%;
-  }
+ }
   
   .nav-bar ul{
    background-color: #f1f1f1;
@@ -12,85 +12,102 @@ body{
    font-family: "Rochester";
    font-size: 36px;
    border-bottom: solid #9BBBF9;
-  }
-  .nav-bar li{
+}
+  
+.nav-bar li{
    list-style-type: none;
-  }
-  .nav-bar .left-logo {
-  display: flex;
-  }
-  .nav-bar a{
+}
+
+.nav-bar .left-logo {
+   display: flex;
+}
+  
+.nav-bar a {
    display: flex;
    justify-content: space-around;
    padding: 16px;
    text-decoration: none;
    color: black;
-  }
-  a:hover{
+}
+
+a:hover {
    color: #9BBBF9;
-  }
-  .nav-bar .right-logo {
+}
+  
+.nav-bar .right-logo {
    padding: 6px;
    margin-top: 8px;
    margin-right: 16px;
-  }
-  .nav-bar input[type=text]{
+}
+  
+.nav-bar input[type=search]{
    float: right;
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 25px;
-    font-family: "Rochester";
-    border: none;
-  }
-  .dropbtn{
+   padding: 6px;
+   margin-top: 8px;
+   margin-right: 16px;
+   font-size: 25px;
+   font-family: "Rochester";
+   border: none;
+ }
+  
+.dropbtn {
    border: none;
    font-family: "Rochester";
    font-size: 36px;
    margin-top: 15px;
-  }
-  .dropbtn:hover{
+}
+
+.dropbtn:hover {
    color: #9BBBF9;
-  }
-  .drop-content{
+}
+  
+.drop-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
-  .drop-content a {
+}
+  
+.drop-content a {
    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  .drop-content a:hover {background-color: #9BBBF9;}
-  .dropdown:hover .drop-content{
+}
+  
+.drop-content a:hover {
+   background-color: #9BBBF9;
+}
+  
+.dropdown:hover .drop-content{
    display: block;
-  }
-  .logo{
+}
+  
+.logo {
    position: absolute;
    top: 0px;
    left: 600px;
    margin-top: 0px;
    padding-top: 0px;
+}
+ 
+footer {
+    background-color: #f1f1f1;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-top: #9BBBF9 solid;
+    border-bottom: #9BBBF9 solid;
+}
   
-  }
-  footer{
-     background-color: #f1f1f1;
-     color: black;
-     text-align: center;
-     padding: 10px;
-     border-top: #9BBBF9 solid;
-     border-bottom: #9BBBF9 solid;
-  }
-  footer p{
+footer p {
    font-family: "Rochester";
    font-size: 20px;
-  }  
- h1 {
+}
+
+h1 {
    color: #9BBBF9;
    font-family: "Rochester";
    font-size: 50px;
@@ -98,7 +115,8 @@ body{
    font-weight: lighter;
    padding: 10px;
 }
- div#images {
+
+div#images {
    background-color: white;
    overflow: hidden;
    width: 90%;
@@ -108,7 +126,8 @@ body{
    margin-right: auto;
    text-align: center;
 }
- img {
+
+img {
    padding: 10px;
 }
  
