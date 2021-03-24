@@ -52,6 +52,8 @@ a:hover {
     font-size: 25px;
     font-family: "Rochester";
     border: none;
+    cursor: auto;
+    letter-spacing: 1px;
 }
 
 .dropbtn {
@@ -247,17 +249,3 @@ footer p {
     font-size: 20px;
     letter-spacing: 0px; /*added this*/
 }
-   
-input[type=search], select, textarea, input[type=email] {
-    width: 100%; /*changed*/
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    cursor: auto; /*changed*/
-    letter-spacing: 1px; /*changed*/
-}
-   
